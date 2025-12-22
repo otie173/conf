@@ -1,0 +1,52 @@
+[font]
+size = 18
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#FFFFFF"
+foreground = "#666666"
+
+[colors.normal]
+black = "#FFFFFF"
+red = "#666666"
+green = "#666666"
+yellow = "#666666"
+blue = "#666666"
+magenta = "#666666"
+cyan = "#666666"
+white = "#666666"
+
+[colors.bright]
+black = "#DDDDDD"
+red = "#666666"
+green = "#666666"
+yellow = "#666666"
+blue = "#666666"
+magenta = "#666666"
+cyan = "#666666"
+white = "#FFFFFF"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#666666"
+
+[colors.selection]
+text = "CellBackground"
+background = "#DDDDDD"
+
+[colors.search]
+matches = { foreground = "#FFFFFF", background = "#DDDDDD" }
+focused_match = { foreground = "#FFFFFF", background = "#888888" }
+
+[colors.hints]
+start = { foreground = "#FFFFFF", background = "#666666" }
+end = { foreground = "#FFFFFF", background = "#888888" }
+
+[colors.footer_bar]
+foreground = "#666666"
+background = "#FFFFFF"
