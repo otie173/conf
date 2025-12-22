@@ -1,0 +1,7 @@
+theme = "minimalist"
+
+[editor.statusline.mode]
+normal = "NORMAL"
+insert = "INSERT"
+select = "SELECT"
+
