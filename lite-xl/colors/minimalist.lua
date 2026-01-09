@@ -1,0 +1,30 @@
+local style = require "core.style"
+local common = require "core.common"
+
+style.background = { common.color "#FFFFFF" }  -- base00
+style.background2 = { common.color "#FFFFFF" } -- base01
+style.background3 = { common.color "#FFFFFF" } -- base01
+style.text = { common.color "#666666" }        -- base05
+style.caret = { common.color "#666666" }       -- base05
+style.accent = { common.color "#666666" }      -- base05
+style.dim = { common.color "#888888" }         -- base03
+style.divider = { common.color "#DDDDDD" }     -- base02
+style.selection = { common.color "#DDDDDD" }   -- base02
+style.line_number = { common.color "#888888" } -- base03
+style.line_number2 = { common.color "#666666" } -- base04
+style.line_highlight = { common.color "#FFFFFF" } -- base01
+style.scrollbar = { common.color "#F0F0F0" }
+style.scrollbar2 = { common.color "#E8E8E8" }
+style.scrollbar_track = { common.color "#FFFFFF" }
+
+style.syntax = {}
+style.syntax["normal"] = { common.color "#666666" }      -- base05
+style.syntax["symbol"] = { common.color "#666666" }      -- base05
+style.syntax["comment"] = { common.color "#888888" }     -- base03, italic
+style.syntax["keyword"] = { common.color "#666666" }     -- base05, bold
+style.syntax["keyword2"] = { common.color "#666666" }    -- base05, bold
+style.syntax["number"] = { common.color "#666666" }      -- base05
+style.syntax["literal"] = { common.color "#666666" }     -- base05
+style.syntax["string"] = { common.color "#666666" }      -- base05
+style.syntax["operator"] = { common.color "#666666" }    -- base05
+style.syntax["function"] = { common.color "#666666" }    -- base05

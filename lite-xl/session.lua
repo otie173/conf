@@ -1,0 +1,1 @@
+return {recents={[1]="/home/otie173/Code/odinbit",[2]="/home/otie173/Code/node/skyland-auth"}, window={[1]=1920,[2]=1080,[3]=1920,[4]=313,["n"]=4}, window_mode="fullscreen", previous_find={}, previous_replace={}}

@@ -1,0 +1,26 @@
+Error: Error creating child process: No such file or directory
+
+stack traceback:
+	[C]: in upvalue 'old_start'
+	/usr/share/lite-xl/core/process.lua:47: in function 'core.process.start'
+	/home/otie173/.config/lite-xl/plugins/lintplus/liteipc.lua:10: in function 'plugins.lintplus.liteipc.start_process'
+	/home/otie173/.config/lite-xl/plugins/lintplus/init.lua:251: in function 'plugins.lintplus.check'
+	/home/otie173/.config/lite-xl/plugins/lintplus/init.lua:853: in upvalue 'load'
+	/usr/share/lite-xl/plugins/autoreload.lua:140: in upvalue 'doc_load'
+	/home/otie173/.config/lite-xl/plugins/lintplus/init.lua:850: in function 'core.doc.load'
+	/usr/share/lite-xl/core/doc/init.lua:28: in upvalue 'new'
+	/usr/share/lite-xl/plugins/detectindent.lua:280: in upvalue 'doc_new'
+	/home/otie173/.config/lite-xl/plugins/lsp_snippets.lua:612: in function 'core.doc.new'
+	...	(skipping 9 levels)
+	/usr/share/lite-xl/plugins/autocomplete.lua:578: in upvalue 'root_view_update'
+	/home/otie173/.config/lite-xl/plugins/lsp/listbox.lua:488: in upvalue 'root_view_update'
+	/usr/share/lite-xl/plugins/contextmenu.lua:27: in upvalue 'root_view_update'
+	/home/otie173/.config/lite-xl/libraries/widget/init.lua:1450: in upvalue 'root_view_update'
+	/usr/share/lite-xl/plugins/treeview.lua:492: in function 'core.rootview.update'
+	/usr/share/lite-xl/core/init.lua:1332: in function 'core.step'
+	/usr/share/lite-xl/core/init.lua:1416: in upvalue 'core_run'
+	/home/otie173/.config/lite-xl/plugins/settings.lua:1896: in function 'core.run'
+	(...tail calls...)
+	[string "local core..."]:14: in function <[string "local core..."]:6>
+	[C]: in function 'xpcall'
+	[string "local core..."]:6: in main chunk
